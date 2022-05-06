@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* Esto con el fin de que todo encaje */
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    background: #575353;
+}
+.contenedor{
+    width: 98%;
+    /* Esto para que este centrado */
+    margin: auto;
+}
+.menu2 a{
+    position: relative;
+    top: 30px;
+    background: #316B83;
+    color: white;
+    padding: 10px 30px;
+    /* Para se cambie cuando el cursor este encima */
+    text-decoration: none;
+    /* Para que sea un bloque de linea */
+    display: inline-block; 
+}
+header.contenedor{
+    display: table;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: url(https://fondosmil.com/fondo/34255.jpg);
+    color: white;
+    /* Con el fin que el menu se quede pegado */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: 1px solid black;
+}
+h1{
+    /* float ubica un elemento a un lado de su contedor permite que otros elementos aparescan a su costado */
+    position: fixed;
+    float: left;
+    top: 25px;
+    left: 25px;
+}
+.menu3 a{
+    color: white;
+    padding: 10px 30px;
+    /* Para se cambie cuando el cursor este encima */
+    text-decoration: none;
+    /* Para que sea un bloque de linea */
+    display: inline-block; 
+}
